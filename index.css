@@ -1,0 +1,98 @@
+body{
+    background-color:(#3D3D3D) ;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color:#007bff;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .navbar h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+@keyframes slidein {
+    from {
+      transform: translateX(-1000%);          /* define the animation */
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .navbar h1 {
+    font-size: 1.5em;                        /* apply the animation to the nav element */
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: slidein 0.4s ease-out;
+
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+   input[type="text"],
+   
+   input[type="text"]
+    { 
+       
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f2f2f2;
+  }
+  
+  input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #007bff;
+  }
+
+  .button-container {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+  }
+  
+  .next-button {
+    background-color: #007bff;
+    margin-left: 360px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #0062cc;
+  }
+  

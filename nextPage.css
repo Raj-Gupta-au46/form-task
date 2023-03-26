@@ -1,0 +1,95 @@
+body{
+    background-color:(#3D3D3D) ;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1{
+    background-color:#4CAF50;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+  }
+  
+  .navbar1 h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  @keyframes slidein {
+    from {
+      transform: translateX(-1000%);          /* define the animation */
+    }
+    to {
+      transform: translateX(0);
+    }
+  }
+  
+
+  .navbar1 h1 {
+    font-size: 1.5em;                        /* apply the animation to the nav element */
+    font-weight: bold;
+    text-transform: uppercase;
+    animation: slidein 0.4s ease-out;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .input-container {
+    margin-top: 20px;
+  }
+  
+  .input-container input {
+    margin-top: 10px;
+    display: block;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .input-container button {
+    margin-top: 10px;
+    margin-left: 200px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-container {
+    margin-top: 20px;
+  }
+  
+  .button-container button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .previous-button {
+    background-color: #4CAF50;
+    margin-left: 860px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
